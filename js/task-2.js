@@ -20,4 +20,4 @@ const createLi = (text) => {
   return el;
 }
 
-ul.prepend(...ingredients.map(createLi));
+ul.append(...ingredients.map(createLi));
